@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Share_and_Spread_server/1.0.0": {
+        "runtime": {
+          "Share_and_Spread_server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Share_and_Spread_server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
