@@ -1,15 +1,30 @@
-C:\Users\Administrator\source\repos\Share and spread - Server\bin\Debug\net7.0\Share_and_Spread_server.exe
-C:\Users\Administrator\source\repos\Share and spread - Server\bin\Debug\net7.0\Share_and_Spread_server.deps.json
-C:\Users\Administrator\source\repos\Share and spread - Server\bin\Debug\net7.0\Share_and_Spread_server.runtimeconfig.json
-C:\Users\Administrator\source\repos\Share and spread - Server\bin\Debug\net7.0\Share_and_Spread_server.dll
-C:\Users\Administrator\source\repos\Share and spread - Server\bin\Debug\net7.0\Share_and_Spread_server.pdb
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.csproj.AssemblyReference.cache
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.AssemblyInfoInputs.cache
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.AssemblyInfo.cs
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.dll
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\refint\Share_and_Spread_server.dll
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.pdb
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\Share_and_Spread_server.genruntimeconfig.cache
-C:\Users\Administrator\source\repos\Share and spread - Server\obj\Debug\net7.0\ref\Share_and_Spread_server.dll
+C:/Users/Administrator/source/repos/Share and spread - Server/bin/Debug/net7.0/Share_and_Spread_server.exe
+C:/Users/Administrator/source/repos/Share and spread - Server/bin/Debug/net7.0/Share_and_Spread_server.deps.json
+C:/Users/Administrator/source/repos/Share and spread - Server/bin/Debug/net7.0/Share_and_Spread_server.runtimeconfig.json
+C:/Users/Administrator/source/repos/Share and spread - Server/bin/Debug/net7.0/Share_and_Spread_server.dll
+C:/Users/Administrator/source/repos/Share and spread - Server/bin/Debug/net7.0/Share_and_Spread_server.pdb
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.AssemblyReference.cache
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfoInputs.cache
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfo.cs
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.CoreCompileInputs.cache
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.dll
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/refint/Share_and_Spread_server.dll
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.pdb
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/Share_and_Spread_server.genruntimeconfig.cache
+C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/ref/Share_and_Spread_server.dll
+/home/crispy/Desktop/Share-and-Spread---Server-main/bin/Debug/net7.0/Share_and_Spread_server
+/home/crispy/Desktop/Share-and-Spread---Server-main/bin/Debug/net7.0/Share_and_Spread_server.deps.json
+/home/crispy/Desktop/Share-and-Spread---Server-main/bin/Debug/net7.0/Share_and_Spread_server.runtimeconfig.json
+/home/crispy/Desktop/Share-and-Spread---Server-main/bin/Debug/net7.0/Share_and_Spread_server.dll
+/home/crispy/Desktop/Share-and-Spread---Server-main/bin/Debug/net7.0/Share_and_Spread_server.pdb
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.csproj.AssemblyReference.cache
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfoInputs.cache
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfo.cs
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.csproj.CoreCompileInputs.cache
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.dll
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/refint/Share_and_Spread_server.dll
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.pdb
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.genruntimeconfig.cache
+/home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/ref/Share_and_Spread_server.dll
