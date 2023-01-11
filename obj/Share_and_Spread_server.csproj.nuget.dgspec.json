@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/crispy/Desktop/Share-and-Spread---Server-main/Share_and_Spread_server.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj": {}
   },
   "projects": {
-    "/home/crispy/Desktop/Share-and-Spread---Server-main/Share_and_Spread_server.csproj": {
+    "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/crispy/Desktop/Share-and-Spread---Server-main/Share_and_Spread_server.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj",
         "projectName": "Share_and_Spread_server",
-        "projectPath": "/home/crispy/Desktop/Share-and-Spread---Server-main/Share_and_Spread_server.csproj",
-        "packagesPath": "/home/crispy/.nuget/packages/",
-        "outputPath": "/home/crispy/Desktop/Share-and-Spread---Server-main/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/crispy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
