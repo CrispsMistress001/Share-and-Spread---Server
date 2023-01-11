@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Share_and_Spread_server
-build_property.ProjectDir = C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\
+build_property.ProjectDir = /home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/

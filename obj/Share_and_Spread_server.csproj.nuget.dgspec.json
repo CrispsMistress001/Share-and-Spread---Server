@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj": {}
+    "/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/Share_and_Spread_server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj": {
+    "/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/Share_and_Spread_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj",
+        "projectUniqueName": "/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/Share_and_Spread_server.csproj",
         "projectName": "Share_and_Spread_server",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\Share_and_Spread_server.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\[User\\College\\Application Dev\\Sahre and Spread - Server\\Share and Spread - Server\\obj\\",
+        "projectPath": "/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/Share_and_Spread_server.csproj",
+        "packagesPath": "/home/crispy/.nuget/packages/",
+        "outputPath": "/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/crispy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

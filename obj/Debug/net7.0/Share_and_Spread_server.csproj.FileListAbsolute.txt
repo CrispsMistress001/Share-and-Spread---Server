@@ -28,38 +28,73 @@ C:/Users/Administrator/source/repos/Share and spread - Server/obj/Debug/net7.0/r
 /home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.pdb
 /home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/Share_and_Spread_server.genruntimeconfig.cache
 /home/crispy/Desktop/Share-and-Spread---Server-main/obj/Debug/net7.0/ref/Share_and_Spread_server.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Share_and_Spread_server.exe
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Share_and_Spread_server.deps.json
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Share_and_Spread_server.runtimeconfig.json
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Share_and_Spread_server.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Share_and_Spread_server.pdb
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.csproj.AssemblyReference.cache
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.AssemblyInfoInputs.cache
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.AssemblyInfo.cs
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\refint\Share_and_Spread_server.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.pdb
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.genruntimeconfig.cache
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\ref\Share_and_Spread_server.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Google.Protobuf.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\K4os.Compression.LZ4.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\K4os.Hash.xxHash.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\MySql.Data.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\ZstdNet.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Administrator\Documents\[User\College\Application Dev\Sahre and Spread - Server\Share and Spread - Server\obj\Debug\net7.0\Share_and_Spread_server.csproj.CopyComplete
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Share_and_Spread_server.exe
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Share_and_Spread_server.deps.json
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Share_and_Spread_server.runtimeconfig.json
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Share_and_Spread_server.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Share_and_Spread_server.pdb
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.AssemblyReference.cache
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfoInputs.cache
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfo.cs
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.CoreCompileInputs.cache
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/refint/Share_and_Spread_server.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.pdb
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.genruntimeconfig.cache
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/ref/Share_and_Spread_server.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Google.Protobuf.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/MySql.Data.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/ZstdNet.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/Newtonsoft.Json.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Administrator/Documents/[User/College/Application Dev/Sahre and Spread - Server/Share and Spread - Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.CopyComplete
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.AssemblyReference.cache
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.GeneratedMSBuildEditorConfig.editorconfig
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfoInputs.cache
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.AssemblyInfo.cs
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.CoreCompileInputs.cache
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/refint/Share_and_Spread_server.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.pdb
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Share_and_Spread_server
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Share_and_Spread_server.deps.json
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Share_and_Spread_server.runtimeconfig.json
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Share_and_Spread_server.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Share_and_Spread_server.pdb
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Google.Protobuf.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/MySql.Data.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/ZstdNet.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/System.Drawing.Common.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/System.Security.Permissions.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/System.Windows.Extensions.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.csproj.CopyComplete
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/Share_and_Spread_server.genruntimeconfig.cache
+/home/crispy/Documents/Coding/Share_and_Spread_server/Share-and-Spread---Server/obj/Debug/net7.0/ref/Share_and_Spread_server.dll
