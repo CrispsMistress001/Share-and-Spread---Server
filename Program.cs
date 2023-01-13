@@ -134,7 +134,7 @@ public class Program{
             }
             catch(Exception){
                 FullMessage.Add(new List<String>());
-
+                FullMessage[0].Add("");
             }
             
             return FullMessage;
@@ -218,6 +218,7 @@ public class Program{
                     Database_Response_Data = "";
                     Console.WriteLine(" >> " + "From client-" + clNo + dataFromClient);
                     Console.WriteLine(" >> SPACER");
+                    serverResponse = "";
 
                     // me stafff Innit yeeee :D
 
@@ -289,11 +290,17 @@ public class Program{
                             sendBytes = Encoding.ASCII.GetBytes("No user found!");
                             networkStream.Write(sendBytes, 0, sendBytes.Length);
                             networkStream.Flush();
-                            Console.WriteLine(" >> " + Database_Response_Data);
+                            Console.WriteLine(" >> " + "No user found!");
                         }
                     }else if (dataFromClient.Split('|')[0] == "Retrieve"){
                         ////////////////////// RETRIEVING COMPLAINTS ///////////////////////////////////////////////////////////////////////////////////////
-                        string query = "SELECT Title, ComplaintID FROM complaints WHERE UserID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        string query = "SELECT IsAdmin FROM users WHERE UserID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        if(DB.SendQuery(query)[0][0] == "True"){
+                            query = "SELECT Title, ComplaintID FROM complaints";
+                        }else{
+                            query = "SELECT Title, ComplaintID FROM complaints WHERE UserID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        }
+
                         Console.WriteLine(" -- query - "+query);
                         // Console.WriteLine(Database_Response_Data);
                         Database_Response_Data = DB.FormatData(DB.SendQuery(query));
@@ -309,7 +316,53 @@ public class Program{
 
 
 
-                    }else{
+                    }else if (dataFromClient.Split('|')[0] == "ViewComplaint"){
+                        string query = "SELECT Messages FROM complaints WHERE ComplaintID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        Console.WriteLine(" -- query - "+query);
+                        Database_Response_Data = DB.SendQuery(query)[0][0];
+
+                        foreach(var item in Database_Response_Data.Split('|')){
+                            serverResponse+= item;
+
+                            if(Database_Response_Data.Split('|')[Database_Response_Data.Split('|').Length-1] != item){
+                                serverResponse+= "|BRK|";
+                            }
+                        }
+                        
+                        if(serverResponse == "" || serverResponse ==  null){
+                            serverResponse = "No messages!";
+                        }
+                        sendBytes = Encoding.ASCII.GetBytes(serverResponse);
+                        networkStream.Write(sendBytes, 0, sendBytes.Length);
+                        networkStream.Flush();
+                        Console.WriteLine(" >> " + serverResponse);
+
+                    }else if (dataFromClient.Split('|')[0] == "SendMessage"){
+                        string query = "SELECT Messages FROM complaints WHERE ComplaintID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        Console.WriteLine(" -- query - "+query);
+                        Database_Response_Data = DB.SendQuery(query)[0][0];
+                        Database_Response_Data+= "|"+dataFromClient.Split('|')[2];
+
+
+                        query = "UPDATE complaints SET Messages="+'\u0022'+Database_Response_Data+'\u0022'+" WHERE ComplaintID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
+                        Console.WriteLine(" -- query - "+query);
+                        Database_Response_Data = DB.SendQuery(query)[0][0];
+                        Console.WriteLine(Database_Response_Data);
+  
+                        if(Database_Response_Data == "" || Database_Response_Data ==  null){
+                            Database_Response_Data = "Succesful!";
+                        }else{
+                            Database_Response_Data = "Failed!";
+
+                        }
+                        sendBytes = Encoding.ASCII.GetBytes(Database_Response_Data);
+                        networkStream.Write(sendBytes, 0, sendBytes.Length);
+                        networkStream.Flush();
+                        Console.WriteLine(" >> " + serverResponse);
+
+
+                    }
+                    else{
                         rCount = Convert.ToString(requestCount);
                         serverResponse = "Server to clinet(" + clNo + ") " + rCount;
                         sendBytes = Encoding.ASCII.GetBytes(serverResponse);
