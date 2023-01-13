@@ -251,7 +251,7 @@ public class Program{
 
                         json = JObject.Parse(dataFromClient.Split('|')[1]);
 
-                        query = "INSERT INTO users VALUES ("+rnd_value.ToString() +","+'\u0022'+json["Fullname"]+'\u0022'+","+'\u0022'+json["Email"]+'\u0022'+","+'\u0022'+json["Password"]+'\u0022'+","+'\u0022'+json["Phonenumber"]+'\u0022'+","+'\u0022'+json["Address"]+'\u0022'+")";
+                        query = "INSERT INTO users VALUES ("+rnd_value.ToString() +","+'\u0022'+json["Fullname"]+'\u0022'+","+'\u0022'+json["Email"]+'\u0022'+","+'\u0022'+json["Password"]+'\u0022'+","+'\u0022'+json["Phonenumber"]+'\u0022'+","+'\u0022'+json["Address"]+'\u0022'+", 0)";
                         try{
                             Database_Response_Data = DB.SendQuery(query)[0][0];
                         }catch(Exception){Database_Response_Data="";}
