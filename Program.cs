@@ -81,10 +81,8 @@ public class Program{
     /////////////////////////////        DATABASE CONNECTION CLASS            ////////////////////////////////////////////////////////
     public class DatabaseControl{
         private static DBConnection dbCon;
-        private static string FullMessage = "";
 
         public DatabaseControl(){
-            string FullMessage = "";
             dbCon = DBConnection.Instance();
             dbCon.Server = "localhost";
             dbCon.DatabaseName = "Share_and_Spread";
@@ -97,9 +95,10 @@ public class Program{
             }
         }
 
-        public string SendQuery(string query){
+        public List<List<String>> SendQuery(string query){
             var cmd = new MySqlCommand(query, dbCon.Connection);
-            FullMessage = "";
+            List<List<String>> FullMessage = new List<List<String>>();
+            
             int count = 0;
             try{
                 using (MySqlDataReader reader = cmd.ExecuteReader())
@@ -107,33 +106,61 @@ public class Program{
 
                     while (reader.Read())
                     {
+                        FullMessage.Add(new List<String>());
                         string someStringFromColumnZero = reader.GetString(0);
                         Console.WriteLine("|||"+someStringFromColumnZero);
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
                             Console.WriteLine("----"+reader.GetValue(i).ToString());
-                        }
-                        if(count >= 1){
-                            FullMessage+= "|BRK|"+someStringFromColumnZero;
-                        }else{
-                            FullMessage+= someStringFromColumnZero;
+                            FullMessage[count].Add(reader.GetValue(i).ToString());
 
                         }
+
                         count++;
                     }
                 }
                 
             }catch(Exception e){
-                FullMessage = "Failed-Exception";
+                FullMessage.Clear();
+                FullMessage.Add(new List<String>());
+
                 Console.WriteLine(e.Message);
+                FullMessage[0].Add("Failed-Exception");
+
             }
 
+            try{
+                FullMessage[0][0].Count();
+            }
+            catch(Exception){
+                FullMessage.Add(new List<String>());
+
+            }
             
             return FullMessage;
 
         }
         public void Close(){
             dbCon.Close();
+        }
+        public string FormatData(List<List<String>> DeList){
+            String Response_Data = "";
+            for (int i = 0 ; i< DeList.Count; i++){
+                // Console.WriteLine("First Loop-" + i);
+
+                for (int a = 0 ; a< DeList[0].Count; a++){
+                    // Console.WriteLine("Second Loop-" + a);
+
+                    Response_Data += DeList[i][a];
+                    if(a != DeList[0].Count-1){
+                        Response_Data+=";;;";
+                    }
+                }
+                if(i != DeList.Count-1){
+                        Response_Data+="|BRK|";
+                }
+            }
+            return Response_Data;
         }
 
     } 
@@ -188,7 +215,7 @@ public class Program{
                     bytesFrom = new byte[256];
                     networkStream.Read(bytesFrom, 0, bytesFrom.Length);
                     dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
-
+                    Database_Response_Data = "";
                     Console.WriteLine(" >> " + "From client-" + clNo + dataFromClient);
                     Console.WriteLine(" >> SPACER");
 
@@ -203,27 +230,36 @@ public class Program{
                         int rnd_value_2 = StaticRandom.Instance.Next(1, 90000);
                         string query = "SELECT UserID FROM users WHERE UserID = "+rnd_value;
                         // CHECK FOR DUPLICATES
-                        while(DB.SendQuery(query) != ""){
-                            Console.WriteLine(" >>Remaking user ID");
-                            rnd_value = StaticRandom.Instance.Next(1, 90000);
+                        try{
+                            while(DB.SendQuery(query)[0][0] != ""){
+                                Console.WriteLine(" >>Remaking user ID");
+                                rnd_value = StaticRandom.Instance.Next(1, 90000);
+                            }
+                        }catch(Exception){}
 
-                        }
                         query = "SELECT ComplaintID FROM complaints WHERE ComplaintID = "+rnd_value_2;
-                        
-                        while(DB.SendQuery(query) != ""){
-                            Console.WriteLine(" >>Remaking complaint ID");
-                            rnd_value_2 = StaticRandom.Instance.Next(1, 90000);
-                        }
+                        try{
+                            while(DB.SendQuery(query)[0][0] != ""){
+                                Console.WriteLine(" >>Remaking complaint ID");
+                                rnd_value_2 = StaticRandom.Instance.Next(1, 90000);
+                            }
+                        }catch(Exception){}
+
                         // END
 
 
                         json = JObject.Parse(dataFromClient.Split('|')[1]);
 
                         query = "INSERT INTO users VALUES ("+rnd_value.ToString() +","+'\u0022'+json["Fullname"]+'\u0022'+","+'\u0022'+json["Email"]+'\u0022'+","+'\u0022'+json["Password"]+'\u0022'+","+'\u0022'+json["Phonenumber"]+'\u0022'+","+'\u0022'+json["Address"]+'\u0022'+")";
-                        Database_Response_Data = DB.SendQuery(query);
+                        try{
+                            Database_Response_Data = DB.SendQuery(query)[0][0];
+                        }catch(Exception){Database_Response_Data="";}
+
                         serverResponse = Database_Response_Data;
                         query = "INSERT INTO complaints VALUES ("+rnd_value_2.ToString() +","+'\u0022'+rnd_value.ToString()+'\u0022'+","+'\u0022'+json["Title"]+'\u0022'+','+'\u0022'+json["Complaint"]+'\u0022'+","+'\u0022'+'\u0022'+")";
-                        Database_Response_Data = DB.SendQuery(query);
+                        try{
+                            Database_Response_Data = DB.SendQuery(query)[0][0];
+                        }catch(Exception){Database_Response_Data="";}
 
                         serverResponse += "|"+Database_Response_Data;
                         if((serverResponse.Split('|')[0] != "Failed-Exception") || (serverResponse.Split('|')[1] != "Failed-Exception")){
@@ -241,10 +277,11 @@ public class Program{
                         json = JObject.Parse(dataFromClient.Split('|')[1]);
 
                         string query = "SELECT UserID FROM users WHERE Email = "+'\u0022'+json["Email"]+'\u0022'+" AND Password = "+'\u0022'+json["Password"]+'\u0022';
-                        Database_Response_Data = DB.SendQuery(query);
-                        if(Database_Response_Data != ""){
+                        List<List<String>> TEMPList = DB.SendQuery(query);
+                        Console.WriteLine(TEMPList[0].Count);
+                        if(TEMPList[0].Count == 1){
                             Console.WriteLine(Database_Response_Data);
-                            sendBytes = Encoding.ASCII.GetBytes("Logged in!|"+Database_Response_Data);
+                            sendBytes = Encoding.ASCII.GetBytes("Logged in!|"+TEMPList[0][0]);
                             networkStream.Write(sendBytes, 0, sendBytes.Length);
                             networkStream.Flush();
                             Console.WriteLine(" >> " + Database_Response_Data);
@@ -258,13 +295,20 @@ public class Program{
                         ////////////////////// RETRIEVING COMPLAINTS ///////////////////////////////////////////////////////////////////////////////////////
                         string query = "SELECT Title, ComplaintID FROM complaints WHERE UserID = "+'\u0022'+dataFromClient.Split('|')[1]+'\u0022';
                         Console.WriteLine(" -- query - "+query);
-                        Database_Response_Data = DB.SendQuery(query);
                         // Console.WriteLine(Database_Response_Data);
+                        Database_Response_Data = DB.FormatData(DB.SendQuery(query));
 
+                        
+                        if(Database_Response_Data == "" || Database_Response_Data ==  null){
+                            Database_Response_Data = "Found nothing!";
+                        }
                         sendBytes = Encoding.ASCII.GetBytes(Database_Response_Data);
                         networkStream.Write(sendBytes, 0, sendBytes.Length);
                         networkStream.Flush();
                         Console.WriteLine(" >> " + Database_Response_Data);
+
+
+
                     }else{
                         rCount = Convert.ToString(requestCount);
                         serverResponse = "Server to clinet(" + clNo + ") " + rCount;
